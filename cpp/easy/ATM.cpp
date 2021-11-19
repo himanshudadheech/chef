@@ -21,7 +21,7 @@ int main(){
     float tax;
     tax = d+0.5;
     
-    if(g==0 && tax<bal){
+    if(g==0 && tax<=bal){
         
         bal = bal-tax;
         cout<<fixed<<setprecision(2)<<bal;
