@@ -13,7 +13,7 @@ int main(){
       cin>>a;
       cin>>b;
       int r = a%b;
-      cout<<r;
+      cout<<r<<endl;
   }
   
 }
